@@ -1,19 +1,22 @@
 {
   "users": [
     {
-      "name": "krushnal",
-      "email": "krushnal@krushnal",
-      "id": 7
+      "name": "farmina",
+      "email": "farmina@gmail.com",
+      "phone": "963852741",
+      "id": "ITSm8g2"
     },
     {
-      "name": "krushnal2",
-      "email": "krushnal@krushnal",
-      "id": 9
+      "name": "Pragnesh",
+      "email": "pragnesh@gmail.com",
+      "phone": "513465616894",
+      "id": "g7g9-am"
     },
     {
-      "name": "krushnal1",
-      "email": "krushnal@krushnal",
-      "id": 4
+      "name": "Krushnal",
+      "email": "krushnal.soni@indianic.com",
+      "phone": "135468461435643646",
+      "id": "YQ-RjEZ"
     }
   ]
 }

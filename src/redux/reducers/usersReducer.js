@@ -19,17 +19,23 @@ const usersReducer = (state = initialState, action) => {
         ...state,
         loading: false,
       };
-    case type.deleteUser:
-      return {
-        ...state,
-        loading: false,
-      };
     case type.getSingleUser:
       return {
         ...state,
         user: action.payload,
         loading: false,
       };
+    case type.updateUser:
+      return {
+        ...state,
+        loading: false,
+      };
+    case type.deleteUser:
+      return {
+        ...state,
+        loading: false,
+      };
+
     default:
       return state;
   }

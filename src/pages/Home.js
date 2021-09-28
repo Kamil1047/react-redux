@@ -28,24 +28,18 @@ const Home = () => {
             <th>Id</th>
             <th>Name</th>
             <th>Email</th>
-            {/* <th>Phone</th>
-            <th>Age</th>
-            <th>Gender</th>
-            <th>Country</th> */}
+            <th>Phone</th>
             <th>Actions</th>
           </tr>
         </thead>
         <tbody border="3">
           {users &&
             users.map((user, index) => (
-              <tr key={user.id}>
+              <tr key={index}>
                 <th scope="row">{index + 1}</th>
                 <td>{user.name}</td>
                 <td>{user.email}</td>
-                {/* <td>{user.phone}</td>
-                <td>{user.age}</td>
-                <td>{user.gender}</td>
-                <td>{user.country}</td> */}
+                <td>{user.phone}</td>
                 <td>
                   <Button
                     style={{ marginRight: "10px" }}
